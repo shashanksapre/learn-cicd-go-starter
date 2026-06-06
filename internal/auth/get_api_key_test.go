@@ -31,7 +31,7 @@ func TestAuthorizationHeader(t *testing.T) {
 		t.Errorf("Expected to pass with correct authorization header")
 	}
 
-	if apiKey != "12" {
+	if apiKey != "123" {
 		t.Errorf("Expected ApiKey to be 123, but received %s", apiKey)
 	}
 }
